@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&family=Roboto&display=swap');
+
+
+body {
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 99%;
+    height: 99%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.main {
+    width: 880px;
+    height: auto;
+    position: absolute;
+    top: calc(50% - 150px);
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.main-link {
+    text-decoration: none;
+    color: #01559f;
+}
+
+.serch-logo {
+    width: 95px;
+    margin-right: 20px;
+}
+
+.serch {
+    display: flex;
+}
+
+.serch-font {
+    font-size: 1.3rem;
+}
+
+.serch-and-button {
+    width: 675px;
+    border: 2px solid #FFC93D;
+    border-radius: 10px;
+    display: flex;
+    height: 45px;
+    z-index: 2;
+}
+
+.serch-input {
+    width: 675px;
+    margin-left: 8px;
+    outline: none;
+    margin-right: 5px;
+    border: none;
+}
+
+.serch-button {
+    z-index: 1;
+    width: 100px;
+    border: 2px solid #FFC93D;
+    margin-left: -7px;
+    background: #FFC93D;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    cursor: pointer;
+}
+
+.conten-and-services {
+    margin-left: 112px;
+    width: 600px;
+}
+
+.content {
+    margin-bottom: 30px;
+}
+
+.content-error {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+.services {
+    display: flex;
+}
+
+.services-logo {
+    border-radius: 50%;
+    width: 16px;
+}
+.services-text {
+    width: 300px;
+}
+
+.footer {
+    position: absolute;
+    left: calc(50% - 450px);
+    bottom: 25px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: rgba(128, 128, 128, .8);
+    margin-right: 20px;
+}
+
+.right-column_margin {
+    margin-left: 120px;
+}
+
+@media (max-width: 930px) {
+    .main {
+        padding: 0 20px;
+    }
+    
+    .footer {
+        padding-left: 12%;
+    }
+}
+
+.debug {
+    background: rgba(255, 201, 61, .6);
+}
